@@ -1,4 +1,4 @@
-package com.example.eden.quickamp;
+package quick.amp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

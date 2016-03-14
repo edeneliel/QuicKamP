@@ -1,4 +1,4 @@
-package com.example.eden.quickamp;
+package quick.amp;
 
 import android.app.Activity;
 import android.content.BroadcastReceiver;
@@ -6,15 +6,11 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.graphics.Bitmap;
-import android.graphics.Canvas;
 import android.graphics.Color;
-import android.graphics.Paint;
 import android.graphics.Typeface;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
-import android.view.Gravity;
-import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -22,6 +18,7 @@ import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.example.eden.quickamp.R;
 import com.lge.qcircle.template.*;
 
 import com.lge.qcircle.utils.QCircleFeature;
@@ -78,7 +75,7 @@ public class MainActivity extends Activity {
         title = new TextView(this);
 
         play_toggle_btn = new Button(getApplicationContext());
-        play_toggle_btn.setBackgroundResource(R.drawable.play);
+        play_toggle_btn.setBackgroundResource(com.example.eden.quickamp.R.drawable.play);
 
         next_btn = new Button(getApplicationContext());
         next_btn.setBackgroundResource(R.drawable.next);
